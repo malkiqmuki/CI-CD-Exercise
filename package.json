@@ -4,7 +4,8 @@
   "description": "Minimal Node.js project with Jest and CI pipeline",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest"
+    "start": "node index.js",
+    "test": "npx jest --verbose"
   },
   "devDependencies": {
     "jest": "^29.7.0"
