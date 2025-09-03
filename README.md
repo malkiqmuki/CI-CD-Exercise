@@ -1,5 +1,9 @@
 # 🔄 CI/CD Exercise
 
+![CI](https://github.com/malkiqmuki/CI-CD-Exercise/actions/workflows/StudentRegistry.yml/badge.svg)
+
+Това репо демонстрира CI/CD концепции и автоматизация.
+
 ## 📖 Описание
 Това репо демонстрира основни концепции за **Continuous Integration (CI)** и **Continuous Delivery/Deployment (CD)**.  
 Целта е да се покаже:
