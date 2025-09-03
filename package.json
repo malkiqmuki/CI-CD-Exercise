@@ -4,10 +4,15 @@
   "description": "Minimal Node.js project with Jest and CI pipeline",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "npx jest"
   },
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
-
