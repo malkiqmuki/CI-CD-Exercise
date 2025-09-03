@@ -1,6 +1,7 @@
 # 🔄 CI/CD Exercise
 
-![CI](https://github.com/malkiqmuki/CI-CD-Exercise/actions/workflows/StudentRegistry.yml/badge.svg)
+![CI](https://github.com/malkiqmuki/CI-CD-Exercise/actions/workflows/CIPipeline.yml
+/badge.svg)
 
 Това репо демонстрира CI/CD концепции и автоматизация.
 
