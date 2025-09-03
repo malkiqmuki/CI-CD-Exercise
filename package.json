@@ -1,15 +1,13 @@
 {
-  "name": "MVC-app-integration-tests-example",
+  "name": "ci-cd-exercise",
+  "version": "1.0.0",
+  "description": "Minimal Node.js project with Jest and CI pipeline",
   "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.20.3",
-    "express": "^4.21.1",
-    "mocha": "^10.7.3",
-    "node-fetch": "^3.3.2",
-    "pug": "^3.0.3"
-  },
   "scripts": {
-    "test": "mocha tests/*.js",
-    "start": "node index.js"
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
+
