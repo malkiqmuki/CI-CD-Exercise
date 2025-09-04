@@ -72,7 +72,7 @@ jobs:
 
 🔥 Идеи за надграждане
 
-Добавяне на Code Coverage Reports
+Добавяне на Code Coverage Reports    ✅
 Автоматично генериране на Docker образи
 Интеграция със Slack/Teams за известия
 Deployment към облачна платформа (Heroku, AWS, Azure)
