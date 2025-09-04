@@ -4,7 +4,7 @@
   "description": "Minimal Node.js project with Jest and CI pipeline",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest --verbose"
+    "test": "npx jest --verbose --coverage"
   },
   "devDependencies": {
     "jest": "^29.7.0"
