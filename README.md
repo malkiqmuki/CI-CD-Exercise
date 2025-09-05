@@ -2,40 +2,41 @@
 
 ![CI](https://github.com/malkiqmuki/CI-CD-Exercise/actions/workflows/demo.yml/badge.svg)
 
-Това репо демонстрира CI/CD концепции и автоматизация.
-
-## 📖 Описание
-Това репо демонстрира основни концепции за **Continuous Integration (CI)** и **Continuous Delivery/Deployment (CD)**.  
-Целта е да се покаже:
-- Как се изгражда и тества проект автоматично
-- Как се използват **GitHub Actions** (или друг pipeline инструмент)
-- Как се прилага добър workflow за екипна работа
+This repository demonstrates CI/CD concepts and automation.
 
 ---
 
-## 🛠️ Използвани технологии
-- **GitHub Actions** – автоматизация на build и тестове
-- **Node.js / Java / Python** – (замени с твоя език за проекта)
-- **Docker** – (по избор, за контейнеризация)
-- **Unit/Integration тестове** – за проверка на функционалностите
-- **GitHub** – за версия контрол и CI/CD pipeline
+## 📖 Description
+This repository demonstrates core concepts of **Continuous Integration (CI)** and **Continuous Delivery/Deployment (CD)**.  
+The goal is to show:
+- How to automatically build and test a project  
+- How to use **GitHub Actions** (or another pipeline tool)  
+- How to implement a good workflow for team collaboration  
 
 ---
 
-## 🚀 Как работи
-1. **CI стъпки:**
-   - Инсталиране на зависимости
-   - Стартиране на Unit тестове
-   - Проверка на code style и качество (linting)
-2. **CD стъпки (ако има):**
-   - Build на проект
-   - Деплой на тестова среда
-   - (По избор) Автоматичен деплой на продукция
+## 🛠️ Technologies Used
+- **GitHub Actions** – automating builds and tests  
+- **Node.js / Java / Python** – (replace with your project language)  
+- **Docker** – (optional, for containerization)  
+- **Unit/Integration Tests** – to validate functionality  
+- **GitHub** – for version control and CI/CD pipeline  
 
 ---
 
+## 🚀 How It Works
+1. **CI Steps:**
+   - Install dependencies  
+   - Run unit tests  
+   - Check code style and quality (linting)  
+2. **CD Steps (if any):**
+   - Build the project  
+   - Deploy to a test environment  
+   - (Optional) Automatic deployment to production  
 
-## 🔍 Примерен GitHub Actions Workflow
+---
+
+## 🔍 Example GitHub Actions Workflow
 ```yaml
 name: CI Pipeline
 
@@ -63,19 +64,24 @@ jobs:
       - name: Run tests
         run: npm test
 
-✅ Ползи
+✅ Benefits
 
-Демонстрация на автоматизация на тестовете
-Показва умения по DevOps практики
-Лесен за разширяване с линтери, Docker, deployment стъпки
+Demonstrates automated testing
 
+Shows DevOps skills
 
-🔥 Идеи за надграждане
+Easy to extend with linters, Docker, and deployment steps
 
-Добавяне на Code Coverage Reports    ✅
-Автоматично генериране на Docker образи
-Интеграция със Slack/Teams за известия
-Deployment към облачна платформа (Heroku, AWS, Azure)
+🔥 Ideas for Improvements
 
-👨‍💻 Автор
+Add Code Coverage Reports ✅
+
+Automatically generate Docker images
+
+Integrate with Slack/Teams for notifications
+
+Deploy to cloud platforms (Heroku, AWS, Azure)
+
+👨‍💻 Author
+
 GitHub: malkiqmuki
