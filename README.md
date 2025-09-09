@@ -7,6 +7,8 @@
 
 This repository demonstrates CI/CD concepts and automation.
 
+![Pipeline](images/pipeline.png)
+
 ---
 
 ## 📖 Description
