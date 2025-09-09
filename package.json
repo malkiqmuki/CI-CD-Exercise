@@ -4,7 +4,7 @@
   "dependencies": {
     "body-parser": "^1.20.3",
     "express": "^4.21.1",
-    "mocha": "^10.7.3",
+    "mocha": "^10.0.0",
     "node-fetch": "^2.7.0",
     "pug": "^3.0.3"
   },
@@ -14,8 +14,5 @@
   },
   "devDependencies": {
     "nyc": "^17.1.0"
-  },
-  "overrides": {
-  "node-fetch": "2.7.0"
-}
+  }
 }
