@@ -1,5 +1,5 @@
 const assert = require('assert');
-const fetch = require('node-fetch');
+import fetch from "node-fetch";
 
 suite('Add Students page', function() {
   test('Page title', async function() {
