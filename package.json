@@ -9,7 +9,10 @@
     "pug": "^3.0.3"
   },
   "scripts": {
-    "test": "mocha tests/*.js",
-    "start": "node index.js"
+     "test": "mocha tests/*.js",
+  "coverage": "nyc npm test"
+  },
+  "devDependencies": {
+    "nyc": "^17.1.0"
   }
 }
