@@ -1,6 +1,6 @@
 # 🔄 CI/CD Exercise
 
-![CI](https://github.com/malkiqmuki/CI-CD-Exercise/actions/workflows/demo.yml/badge.svg)
+![CI](https://github.com/malkiqmuki/CI-CD-Exercise/actions/workflows/npm-publish.yml/badge.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/malkiqmuki/CI-CD-Exercise)
 ![GitHub repo size](https://img.shields.io/github/repo-size/malkiqmuki/CI-CD-Exercise)
 ![Made with](https://img.shields.io/badge/made%20with-GitHub%20Actions-blue)
