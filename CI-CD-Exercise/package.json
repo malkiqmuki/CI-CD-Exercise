@@ -1,0 +1,29 @@
+{
+  "name": "ci-cd-exercise",
+  "version": "1.0.0",
+  "description": "Minimal Node.js project with Jest and CI pipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest --verbose --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/coverage/**"
+    ]
+  },
+  "dependencies": {
+    "glob": "^11.0.3"
+  }
+}
